@@ -1,0 +1,10 @@
+SELECT * FROM employee.emp1;
+select name, department from emp1;
+select name from emp1 where department="IT";
+select salary from emp1 where name="Jithin";
+select * from emp1 where salary>=2000;
+select * from emp1 where department="IT" or married=001;
+
+select name, salary, salary+1000 as "updatedSalary" from emp1;
+select id, salary, id+salary as "upadtedName" from emp1; 
+select id,name,department, salary-100 as "imposedFine" from emp1 where department="IT";
